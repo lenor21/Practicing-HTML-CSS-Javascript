@@ -1,0 +1,92 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/* Head */
+.head{
+	background-color: #282923;
+	color: #fff;
+	overflow: hidden;
+	min-height: 50px;
+}
+
+.head header{
+	padding-top: 20px;
+	padding-left: 40px;
+	float: left;
+	font-size: 20px;
+	color: skyblue;
+}
+
+nav{
+	float: right;
+	padding-top: 55px;
+	padding-right: 20px;
+}
+
+.head nav li{
+	display: inline;
+	padding-right: 30px;
+}
+
+.head nav a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+
+.head nav a:hover{
+	color: #333;
+}
+
+/* Container */
+.container{
+	background-color: #282923;
+	width: 30%;
+	margin: auto;
+	height: 260px;
+	color: #fff;
+	margin-top: 100px;
+	border-radius: 10px;
+}
+
+.container h1{
+	text-align: center;
+	font-size: 30px;
+}
+
+.container form{
+	text-align: center;
+	padding-top: 10px;
+}
+
+.container #username{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-size: 17px;
+}
+
+.container #username input{
+	width: 50%;
+	height: 25px;
+	margin-left: 5px;
+}
+
+.container #password{
+	padding-bottom: 20px;
+	font-size: 17px;
+}
+
+.container #password input{
+	width: 50%;
+	height: 25px;
+	margin-left: 5px;
+}
+
+.container button{
+	width: 40%;
+	height: 30px;
+	border-radius: 5px;
+	border: 0;
+}

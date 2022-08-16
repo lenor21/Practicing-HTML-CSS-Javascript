@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Practice</title>
+	<!--<link rel="stylesheet" type="text/css" href="style.css">-->
+</head>
+<style>
+	body, html {
+		margin: 0;
+		padding: 0;
+	}
+
+	.main {
+		height: 100vh;
+		background: gray;
+
+		/*Layout*/
+		display: grid;
+		grid-template-areas:
+		"ron1 ron2 ron2"
+		"ron1 ron3 ron3"
+		"ron1 ron4 ron4";
+		grid-template-columns: 300px 1fr 1fr;
+		grid-template-rows: 60px 1fr 50px;
+	}
+
+	.ron1 {
+		grid-area: ron1;
+		background-color: red;
+	}
+	.ron2 {
+		grid-area: ron2;
+		background-color: yellow;
+	}
+	.ron3 {
+		grid-area: ron3;
+		background-color: green;
+	}
+	.ron4 {
+		grid-area: ron4;
+		background-color: blue;
+	}
+</style>
+<body>
+	<div class="main">
+		<div class="ron1">RON1</div>
+		<div class="ron2">RON2</div>
+		<div class="ron3">RON3</div>
+		<div class="ron4">RON4</div>
+	</div>
+</body>
+</html>

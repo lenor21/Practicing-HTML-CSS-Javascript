@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.flex{
+	height: 100vh;
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.big{
+	flex: 1;
+	height: 50%;
+	border: 1px solid #333;
+}
+
+.small{
+	flex: 5;
+	height: 50%;
+	border: 1px solid #333;
+}
